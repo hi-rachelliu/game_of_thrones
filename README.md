@@ -1,4 +1,4 @@
-# Game of Thrones Character Death Visualization and Prediction 
+# Game of Thrones Character Deaths: Visualization and Prediction 
 
 ## 🐉 Overview
 Game of Thrones is famous, or perhaps infamous, for its high number of character deaths. Using data from an [API of Ice and Fire](https://anapioficeandfire.com/) on all GOT main characters, let's visualize and predict whether or not a character might die!
@@ -8,7 +8,7 @@ Game of Thrones is famous, or perhaps infamous, for its high number of character
 - GOT.md: an md file that contains all code and results from GOT.Rmd
 - GOT_files/figure-gfm/: a folder that contains all figures generated from gapminder.Rmd
 
-📦 Necessary Packages
+## 📦 Necessary Packages
 
 Required packages for GOT.Rmd include:
 
@@ -21,7 +21,7 @@ library(rvest)
 library(tidymodels)
 ```
 
-👾 Execution
+## 👾 Execution
 Make sure that you have already installed the following packages before running GOT.Rmd:
 ```r
 library("glmnet")
